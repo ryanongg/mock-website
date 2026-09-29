@@ -13,33 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "What payment methods does Kartly accept?",
+    answer:
+      "We accept all major credit and debit cards, Apple Pay, Google Pay, and buy-now-pay-later through our checkout partner. Every transaction is encrypted end to end and PCI-compliant.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "Is it safe to save my card details?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Yes. We never store raw card numbers on our servers — payments are tokenized and processed through a certified payment provider, so your details stay protected even if you save them for next time.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+    question: "How does search find the right products for me?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Our search understands what you mean, not just the words you type, and ranks results using filters, category, and your browsing history so the most relevant items show up first.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Can I track my order after I check out?",
+    answer:
+      "Absolutely. Every order gets a live tracking page showing each step from warehouse to doorstep, plus an estimated delivery window that updates in real time.",
     value: "item-4",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+    question: "What happens if my package is late or lost?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Reach out to support with your order number and we'll investigate with the carrier immediately. If it can't be located, we'll reship or refund you, no questions asked.",
     value: "item-5",
   },
 ];

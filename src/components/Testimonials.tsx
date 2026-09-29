@@ -16,46 +16,45 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    image: "https://i.pravatar.cc/150?img=11",
+    name: "Maya Torres",
+    userName: "@mayatorres",
+    comment: "Checkout was so fast I thought something went wrong. It didn't!",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    image: "https://i.pravatar.cc/150?img=22",
+    name: "Derek Lin",
+    userName: "@dereklin",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "I've had to return two items and both times the refund hit my card before I expected it. Great support team.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    image: "https://i.pravatar.cc/150?img=33",
+    name: "Priya Nair",
+    userName: "@priyanair",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "The order tracking actually matches reality. My package showed up exactly when the app said it would.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    image: "https://i.pravatar.cc/150?img=44",
+    name: "Jonah Fischer",
+    userName: "@jonahf",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "Search finds what I actually mean, not just keyword matches. Filters make it even easier to narrow down.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    image: "https://i.pravatar.cc/150?img=55",
+    name: "Alina Kowalski",
+    userName: "@alinak",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Switched to the Plus plan for the free 2-day shipping and it paid for itself in one order.",
+  },
+  {
+    image: "https://i.pravatar.cc/150?img=66",
+    name: "Marcus Webb",
+    userName: "@marcusw",
+    comment:
+      "Wishlist plus price-drop alerts means I never overpay. This is how online shopping should feel.",
   },
 ];
 
@@ -69,14 +68,13 @@ export const Testimonials = () => {
         Discover Why
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Shoppers Love{" "}
         </span>
-        This Landing Page
+        Kartly
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+        Real feedback from real orders — on payments, search, and delivery.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">

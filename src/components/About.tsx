@@ -20,14 +20,14 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Kartly
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                Kartly started as a weekend side project and grew into a
+                marketplace that connects independent sellers with shoppers
+                who want a fast, trustworthy checkout. Every order is backed
+                by secure payments, real-time tracking, and a support team
+                that actually answers.
               </p>
             </div>
 

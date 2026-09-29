@@ -26,48 +26,45 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "Free",
+    title: "Basic",
     popular: 0,
     price: 0,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+    description: "For casual shoppers who just want a great checkout.",
     buttonText: "Get Started",
     benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
+      "Standard shipping",
+      "30-day returns",
+      "Order tracking",
+      "Email support",
+      "Save items to wishlist",
     ],
   },
   {
-    title: "Premium",
+    title: "Plus",
     popular: 1,
     price: 5,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+    description: "Faster shipping and better deals for frequent shoppers.",
     buttonText: "Start Free Trial",
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
+      "Free 2-day shipping",
+      "60-day returns",
+      "Early access to sales",
       "Priority support",
-      "lorem ipsum dolor",
+      "Member-only pricing",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Prime Cart",
     popular: 0,
-    price: 40,
-    description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+    price: 12,
+    description: "The full experience for shoppers who buy every week.",
+    buttonText: "Go Prime",
     benefitList: [
-      "10 Team member",
-      "8 GB Storage",
-      "Upto 10 pages",
-      "Priority support",
-      "lorem ipsum dolor",
+      "Free next-day shipping",
+      "No-hassle returns anytime",
+      "First access to drops",
+      "24/7 priority support",
+      "Exclusive member discounts",
     ],
   },
 ];
@@ -79,16 +76,16 @@ export const Pricing = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        Get
+        Membership
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Unlimited{" "}
+          Built{" "}
         </span>
-        Access
+        Around You
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        reiciendis.
+        Pick a plan and unlock faster shipping, better deals, and priority
+        support.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (

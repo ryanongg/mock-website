@@ -2,6 +2,7 @@ import { About } from "./components/About";
 import { Cta } from "./components/Cta";
 import { FAQ } from "./components/FAQ";
 import { Features } from "./components/Features";
+import { FeatureDemos } from "./components/FeatureDemos";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { HowItWorks } from "./components/HowItWorks";
@@ -25,6 +26,7 @@ function App() {
       <HowItWorks />
       <Features />
       <Services />
+      <FeatureDemos />
       <Cta />
       <Testimonials />
       <Team />

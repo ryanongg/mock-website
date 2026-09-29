@@ -25,69 +25,69 @@ const teamList: TeamProps[] = [
   {
     imageUrl: "https://i.pravatar.cc/150?img=35",
     name: "Emma Smith",
-    position: "Product Manager",
+    position: "Head of Product",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "#",
       },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "#",
       },
       {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "#",
       },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=60",
     name: "John Doe",
-    position: "Tech Lead",
+    position: "Payments Lead",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "#",
       },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "#",
       },
       {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "#",
       },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=36",
     name: "Ashley Ross",
-    position: "Frontend Developer",
+    position: "Search & Discovery Lead",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "#",
       },
 
       {
         name: "Instagram",
-        url: "https://www.instagram.com/",
+        url: "#",
       },
     ],
   },
   {
     imageUrl: "https://i.pravatar.cc/150?img=17",
     name: "Bruce Rogers",
-    position: "Backend Developer",
+    position: "Logistics & Fulfillment Lead",
     socialNetworks: [
       {
         name: "Linkedin",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        url: "#",
       },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "#",
       },
     ],
   },
@@ -120,8 +120,8 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        The people behind the payments, search, and shipping that keep Kartly
+        running.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
@@ -144,7 +144,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Keeping Kartly fast, secure, and reliable, one order at a time.</p>
               </CardContent>
 
               <CardFooter>

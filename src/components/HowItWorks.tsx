@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Browse",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Search or filter through thousands of products from vetted sellers.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Add to Cart",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Save items for later or check out instantly with one tap.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Pay Securely",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Checkout with cards, wallets, or buy-now-pay-later, all encrypted end to end.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Track & Receive",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Follow your order live, from the warehouse to your doorstep.",
   },
 ];
 
@@ -48,8 +48,7 @@ export const HowItWorks = () => {
         Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        From browsing to your doorstep in four simple steps.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

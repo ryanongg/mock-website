@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Shop on any device",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "A fully responsive storefront that feels native on phone, tablet, and desktop.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Effortless checkout",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "A distraction-free cart and checkout flow designed to get you through in under a minute.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Personalized picks",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Recommendations that learn from what you browse and buy, not generic bestseller lists.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Secure payments",
+  "Smart search",
+  "Order tracking",
+  "Free shipping",
+  "Easy returns",
+  "Wishlist",
+  "Reviews & ratings",
+  "Gift cards",
+  "24/7 support",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Everything You{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Need to Shop
         </span>
       </h2>
 
