@@ -6,6 +6,10 @@
 
 Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
 
+# testing words
+testing
+test2
+
 ## Sections
 
 - [x] Navbar
